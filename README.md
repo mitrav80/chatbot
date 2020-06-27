@@ -1,5 +1,6 @@
 # chatbot
-We are going to build a chatbot using deep learning techniques. The chatbot will be trained on the dataset which contains categories (intents), pattern and responses. We use a special recurrent neural network (LSTM) to classify which category the user’s message belongs to and then we will give a random response from the list of responses.
+Python3x
+Chatbot using deep learning techniques. The chatbot will be trained on the dataset which contains categories (intents), pattern and responses. We use a special recurrent neural network (LSTM) to classify which category the user’s message belongs to and then we will give a random response from the list of responses.
 This chatbot is using NLTK, Keras, Python, etc.
 
 The dataset we will be using is ‘intents.json’. This is a JSON file that contains the patterns we need to find and the responses we want to return to the user.
@@ -7,7 +8,10 @@ The dataset we will be using is ‘intents.json’. This is a JSON file that con
 Prerequisites:
 pip install keras
 pip install nltk
-Tensorflow: pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.8.0-py3-none-any.whl
+pip install tensorflow
+sudo apt-get install python3-tk
+
+
 
 Files:
 Intents.json – The data file which has predefined patterns and responses.
