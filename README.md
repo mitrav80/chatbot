@@ -20,3 +20,7 @@ Words.pkl – This is a pickle file in which we store the words Python object th
 Classes.pkl – The classes pickle file contains the list of categories.
 Chatbot_model.h5 – This is the trained model that contains information about the model and has weights of the neurons.
 Chatgui.py – This is the Python script in which we implemented GUI for our chatbot. Users can easily interact with the bot.
+
+You can customize the data(Intents.json) according to business requirements and train the chatbot with great accuracy. Chatbots are used everywhere and all businesses is looking forward to implementing bot in their workflow.
+
+
